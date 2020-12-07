@@ -1,7 +1,11 @@
 {
   "CUSTOM_TYPES": {
-    "Address": "AccountId",
-    "LookupSource": "AccountId"
+      "Address": "AccountId",
+      "LookupSource": "AccountId",
+      "MyData": {
+          "number1": "u32",
+          "number2": "u32"
+      }
   },
   "PROVIDER_SOCKET": "ws://127.0.0.1:9944"
 }
